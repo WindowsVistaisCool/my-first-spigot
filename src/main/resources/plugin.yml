@@ -1,0 +1,3 @@
+main: com.quackings.spigot.testplugin.App
+name: TestPlugin
+version: 0.1
