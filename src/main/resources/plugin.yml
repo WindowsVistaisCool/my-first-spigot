@@ -5,9 +5,19 @@ author: Kyle Rush
 website: https://quackings.com
 
 commands:
-  bruhwhy:
-    description: testing command
-    permission: testplugin.bruhwhy
+  args:
+    description: args test
+    permission: testplugin.args
     usage: /<command>
+  
+  disable:
+    description: Disables the plugin
+    permission: testplugin.disable
+    ussage: /<command>
+  
+  # menu:
+  #   description: Menu
+  #   permission: testplugin.menu
+  #   ussage: /<command>
 
 permissions: {}

@@ -5,17 +5,17 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.ChatColor;
 
-public class TestCommand implements CommandExecutor {
+public class Menu implements CommandExecutor {
     App plugin;
 
-    public TestCommand(App plugin) {
+    public Menu(App plugin) {
         this.plugin = plugin;
     }
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if (command.getName().equalsIgnoreCase("bruhwhy")) {
-            sender.sendMessage(ChatColor.GREEN + "testing did work yay!!!");
+        if (command.getName().equalsIgnoreCase("menu")) {
+            sender.sendMessage(ChatColor.GOLD + "[TestPlugin] " + ChatColor.RED + "This is a menu!");
             return true;
         }
         return false;

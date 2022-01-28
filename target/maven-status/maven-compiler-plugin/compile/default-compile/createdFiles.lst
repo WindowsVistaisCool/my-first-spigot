@@ -1,2 +1,6 @@
 com\quackings\spigot\testplugin\App.class
-com\quackings\spigot\testplugin\TestCommand.class
+com\quackings\spigot\testplugin\EventListener.class
+com\quackings\spigot\testplugin\Menu.class
+com\quackings\spigot\testplugin\Disable.class
+com\quackings\spigot\testplugin\Args.class
+com\quackings\spigot\testplugin\DropItem.class
